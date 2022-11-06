@@ -115,6 +115,10 @@
         opacity: 0.5;
         transform: scale(1.01);
       }
+      
+      .link:hover {
+        text-decoration: underline;
+      }
 
       body {
         background-color: lightskyblue;
@@ -217,8 +221,12 @@
       >
     </button>
 
-    <footer>Coded By Renae Sass</footer>
-
+    <footer>
+      👾 Coded By Renae Sass
+      <a class="link" href="https://github.com/renaesass/Nature-Walk"
+        >View on github</a
+      >
+    </footer>
     <script>
       function changetheme() {
         let body = document.querySelector("body");
